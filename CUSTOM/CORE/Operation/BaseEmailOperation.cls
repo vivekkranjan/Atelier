@@ -4,7 +4,7 @@ Include (HS.Common, %callout, %ZHSLIB)
 Class CUSTOM.CORE.Operation.BaseEmailOperation Extends (Ens.BusinessOperation, Ens.Util.FunctionSet, CUSTOM.CORE.Util.DataDescriptionLookupAndFormator)
 {
 
-Parameter SETTINGS = "TargetEmailOperation,TargetArchiveOperation,EmailToList,EmailCCList,EmailFrom,ServiceRegistry,IsProgramDataEnabled";
+Parameter SETTINGS ="TargetEmailOperation,TargetArchiveOperation,EmailToList,EmailCCList,EmailFrom,ServiceRegistry,IsProgramDataEnabled";
 
 /// This must be overridden with the value in an Inherited class
 Property EmailGlobalSubscript As %String;
