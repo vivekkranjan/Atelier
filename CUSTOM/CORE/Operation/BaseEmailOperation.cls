@@ -6,7 +6,7 @@ Class CUSTOM.CORE.Operation.BaseEmailOperation Extends (Ens.BusinessOperation, E
 
 Parameter SETTINGS ="TargetEmailOperation,TargetArchiveOperation,EmailToList,EmailCCList,EmailFrom,ServiceRegistry,IsProgramDataEnabled";
 
-/// This must be overridden with the value in an Inherited class
+/// This must be overridden with the value in an Inherited class added comment
 Property EmailGlobalSubscript As %String;
 
 Property TargetEmailOperation As Ens.DataType.ConfigName [ InitialExpression = "CUSTOM.Util.Operation.Email" ];
